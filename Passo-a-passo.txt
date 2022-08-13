@@ -1,0 +1,97 @@
+
+D:\Users\kmar>git clone https://github.com/krsna-murari/Meus-Projetos.git
+Cloning into 'Meus-Projetos'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+D:\Users\kmar>cd Meus-Projetos
+
+D:\Users\kmar\Meus-Projetos>dir
+ Volume in drive D has no label.
+ Volume Serial Number is 826A-C4DC
+
+ Directory of D:\Users\kmar\Meus-Projetos
+
+13/08/2022  14:32    <DIR>          .
+13/08/2022  14:32    <DIR>          ..
+13/08/2022  14:03        49.351.760 Git-2.37.2.2-64-bit.exe
+13/08/2022  14:26                15 README.md
+               2 File(s)     49.351.775 bytes
+               2 Dir(s)  338.544.418.816 bytes free
+
+D:\Users\kmar\Meus-Projetos>git add .
+
+D:\Users\kmar\Meus-Projetos>git commit -m "Exercício de aula - Adicionando arquivos novos"
+[main 37f231d] Exercício de aula - Adicionando arquivos novos
+ Committer: Krsna Murari de Albuquerque Rodrigues <kmar@WINDOWS.CIN.UFPE.BR>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Git-2.37.2.2-64-bit.exe
+
+D:\Users\kmar\Meus-Projetos>git push
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 46.59 MiB | 10.66 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/krsna-murari/Meus-Projetos.git
+   510afe8..37f231d  main -> main
+
+D:\Users\kmar\Meus-Projetos>git add .
+
+D:\Users\kmar\Meus-Projetos>dir
+ Volume in drive D has no label.
+ Volume Serial Number is 826A-C4DC
+
+ Directory of D:\Users\kmar\Meus-Projetos
+
+13/08/2022  14:40    <DIR>          .
+13/08/2022  14:40    <DIR>          ..
+13/08/2022  14:40           333.442 exp_vida.csv
+13/08/2022  14:26                15 README.md
+               2 File(s)        333.457 bytes
+               2 Dir(s)  338.536.275.968 bytes free
+
+D:\Users\kmar\Meus-Projetos>git commit -m "Adicionando novos arquivos"
+[main 355e7e0] Adicionando novos arquivos
+ Committer: Krsna Murari de Albuquerque Rodrigues <kmar@WINDOWS.CIN.UFPE.BR>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 2939 insertions(+)
+ delete mode 100644 Git-2.37.2.2-64-bit.exe
+ create mode 100644 exp_vida.csv
+
+D:\Users\kmar\Meus-Projetos>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 117.65 KiB | 3.10 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/krsna-murari/Meus-Projetos.git
+   37f231d..355e7e0  main -> main
+
+D:\Users\kmar\Meus-Projetos>
